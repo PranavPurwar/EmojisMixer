@@ -18,4 +18,4 @@ jobs:
         if: ${{ !github.head_ref }}
         with:
           name: apk-debug
-          path: app/build/outputs/apk/
+          path: app/build/outputs/apk/release/
